@@ -37,9 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'adminView'
+    'adminView',
+    'books',
+    'students'
 ]
-
+ADMIN_STYLE = {
+    'background':'white',
+    'primary-color':'#000000',
+}
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
